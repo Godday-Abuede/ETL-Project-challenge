@@ -1,5 +1,3 @@
-# ETL-Project-challenge:
-
 # This document contains the ETL project report, please read.
 
 # Team
