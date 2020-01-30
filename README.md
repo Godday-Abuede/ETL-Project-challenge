@@ -1,4 +1,4 @@
-# Guidelines for ETL Project
+# ETL-Project-challenge
 
 This document contains guidelines, requirements, and suggestions for Project 1.
 
@@ -14,15 +14,16 @@ Before you start writing any code, remember that you only have one week to compl
 
 Take advantage of your Instructor and TA support during office hours and class project work time. They are a valuable resource and can help you stay on track.
 
-## Finding Data
+## 2 Data Sources
+*	https://data.world/alice-c/starbucks/workspace/file?filename=Starbucks+World+Stats.csv
+*	https://www.kaggle.com/unsdsn/world-happiness
 
-Your project must use 2 or more sources of data. We recommend the following sites to use as sources of data:
-
+The two data sources were identified using the recommended sources:
 * [data.world](https://data.world/)
-
 * [Kaggle](https://www.kaggle.com/)
 
-You can also use APIs or data scraped from the web. However, get approval from your instructor first. Again, there is only a week to complete this!
+
+
 
 ## Data Cleanup & Analysis
 
@@ -40,11 +41,9 @@ You will be required to submit a final technical report with the above informati
 
 ## Project Report
 
-At the end of the week, your team will submit a Final Report that describes the following:
+We Extracted data from the sources as pointed out above and the data are formatted in CSV.
 
-* **E**xtract: your original data sources and how the data was formatted (CSV, JSON, pgAdmin 4, etc).
-
-* **T**ransform: what data cleaning or transformation was required.
+We renamed the data columns and reset index to false in order to load it into pgAdmin (postgresql).
 
 * **L**oad: the final database, tables/collections, and why this was chosen.
 
