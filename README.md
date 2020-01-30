@@ -1,6 +1,6 @@
-# This document contains the ETL project report, please read.
+# This contains the ETL project report, please read.
 
-# Team
+# Team:
 
 Carrie, Godday, Victoria
 
